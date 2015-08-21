@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url("reset.css");
+
+/* windows8 (IE10) 自動縮小解除*/
+@-ms-viewport{width: device-width;}
+
+html {
+	font-family: "Meiryo", "メイリオ", "ヒラギノ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	color: #484848;
+}
+
+input[type=text],
+textarea {
+	padding: 3px;
+}
+padding {
+	line-height: 17px;
+}
+
+/*バリデーションエラーINPUTフォーム用*/
+.u-error_form {
+	background-color: #FFCFCF;
+
+}
+/*バリデーションエラー文言用*/
+.u-error_mes {
+	font-size: 12px;
+	margin-top: 5px;
+	color: #f00;
+}
