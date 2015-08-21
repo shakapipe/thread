@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+.f-input_form {
+	width: 800px;
+	margin: auto;
+}
+/*ボタン・サブミットボタン*/
+input[type=submit],
+input[type=button] {
+	padding:3px 10px;
+	font-size: 10px;
+	background-color: #99F;
+	color:#00F;
+}
+
+input[name$="commit"] {
+	background-color: #000;
+	color:#FFF;
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+div.mod-comment-add {
+	width: 720px;
+	overflow: hidden;
+	margin: auto;
+}
+
+table {
+	width: 700;
+	margin: auto;
+	border-collapse: separate;
+	border-spacing: 0px 5px;
+}
+
+table th {
+	width: 200px;
+	padding: 2px;
+	background-color: #a5cf3f;
+}
+table td {
+	width: 500px;
+	border-spacing: 0px 15px;
+	padding: 2px;
+}
+
+table input[name=title],
+table textarea[name=body] {
+	width: 500px;
+	max-width: 500px;
+}
+textarea[name$="body"] {
+	height: 90px;
+	max-height: 300px;
+}
+
+.u-commit {
+/*	
+	padding-bottom: 10px;
+	border-bottom: solid 1px;*/
+	float: right;
+}
+
+.f-thread_list {
+	margin: auto;
+	width: 720px;
+}
+.f-thread_list ul > li {
+	line-height: 18px;
+	margin: 5px 0;
+}
+.f-thread_list ul > li.mod-comment {
+	padding: 5px;
+}
+.f-thread_list ul.mod-main > li.mod-comment {
+	background-color: #d2e4ad;
+}
+.f-thread_list ul.mod-reply {
+	margin-left: 30px;
+}
+.f-thread_list ul.mod-reply > li.mod-comment {
+	background-color: #ffc1c1;
+}
+
+.f-thread_list ul > li.mod-comment span {
+	display: block;
+}
+
+.f-thread_list .thread_button {
+	overflow: hidden;
+}
+
+.f-thread_list .thread_button input{
+	display: block;
+	float: right;
+	margin: 0 5px;
+}
+
+.u-none {
+	padding: 5px;
+}
+
+[class^=form_] {
+	display: none;
+	padding-bottom: 10px;
+}
+
+[class^=form_] em{
+	display: inherit;
+}
+
+[class^=form_] input[name$="title"],
+[class^=form_] textarea[name$="body"] {
+	width: 98%;
+	max-width: 98%;
+}
+
+[class^=form_] p {
+	overflow: hidden;
+}
+
+[class^=form_] input[type=submit] {
+	float: right;
+}
+
+a {
+	color: #00F;
+}
+
+a:hover {
+	text-decoration: underline;
+}
