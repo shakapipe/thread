@@ -65,3 +65,19 @@ Cloud9設定
  
   mysql -u root -p
   パスワードはブランク
+  
+  
+  
+ Gitコマンド
+ 
+ git status　現在のステータスを表示
+ 赤　変更
+ 緑　ステージング
+ 
+ カレントディレクトリ配下全部をステージング
+ git add .
+ 
+ git commit -m "commit"
+ 
+ プッシュ
+ git push -u origin master
